@@ -22,13 +22,13 @@
 
 
 # Installation
-###pip installation
+### pip installation
 <pre>
     sudo apt update
     sudo apt install python3-pip python3-dev
 </pre>
 
-###conda installation
+### conda installation
 <pre>
 
 </pre>
