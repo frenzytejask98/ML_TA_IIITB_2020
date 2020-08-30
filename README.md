@@ -1,4 +1,4 @@
-# ML_TA_IIITB_2019
+# ML_TA_IIITB_2020
 This repository contains TA tutorial sessions work for the Machine Learning course, September '20 - Dec '20. 
 
 # Requirements
