@@ -23,26 +23,26 @@ This repository contains TA tutorial sessions work for the Machine Learning cour
 
 # Course Instructors
 
-Prof. G. Srinivasaraghavan
+Prof. G. Srinivasaraghavan <br />
 Prof. Neelam Sinha
 
 # Teaching Assistants
 
-Vibhav Agarwal (IMT2016)
-Tejas Kotha (IMT2016)
-Tanmay Jain (IMT2016)
-Shreyas Gupta (IMT2016)
-Saurabh Jain (IMT2016)
-Divyanshu Khandelwal
-Arjun Verma (IMT2017)
-Amitesh Anand (MT2019)
-Mohd Zahid Faiz (MT2019)
-Tushar Anil Masane (MT2019)
+Vibhav Agarwal (IMT2016) <br />
+Tejas Kotha (IMT2016) <br />
+Tanmay Jain (IMT2016) <br />
+Shreyas Gupta (IMT2016) <br />
+Saurabh Jain (IMT2016) <br />
+Divyanshu Khandelwal (IMT2016) <br />
+Arjun Verma (IMT2017) <br />
+Amitesh Anand (MT2019) <br />
+Mohd Zahid Faiz (MT2019) <br />
+Tushar Anil Masane (MT2019) <br />
 
     
 # Official Communications
-All official announcements will be made on LMS.
-Students are encouraged to use Slack as a forum for discussions and sharing. Professors and TAs will be participating too.
+All official announcements will be made on LMS. <br />
+Students are encouraged to use Slack as a forum for discussions and sharing. Professors and TAs will be participating too. <br />
 [Email](mailto:ai511ml.forum@iiitb.ac.in) to be used for the queries and doubts to professors/TAs.
 
 
