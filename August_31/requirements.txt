@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+scikit-image
+scikit-learn==0.23.0
+jupyter
+Pillow
+scipy
+seaborn
+xgboost
+regex
+catboost
+imageio
+imblearn
+mlxtend
+nltk
+opencv-python
