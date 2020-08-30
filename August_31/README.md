@@ -40,7 +40,13 @@ Virtual environments are isolated coding environments where you can experiment w
 
 ### Using conda
 
-you can create a conda environment for your course project directly with a requirements.txt file. This will install all the packages from your .txt file.
+You can create a conda environment from YML file (recommended)
+
+<pre>
+    conda env create -f environment.yml
+</pre>
+
+Or you can create a conda environment for your course project directly with a requirements.txt file. This will install all the packages from your .txt file. (pip package names may differ from conda package names)
 
 <pre>
     conda create -n [NAME OF YOUR ENVIRONMENT] -file [NAME OF YOUR .TXT FILE]
