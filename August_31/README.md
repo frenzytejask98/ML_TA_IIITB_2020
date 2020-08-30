@@ -62,6 +62,8 @@ You can add packages using simply by using
 
 <pre>
     conda install [PACKAGE NAME]
+    OR
+    pip install [PACKAGE NAME]
 </pre>
 
 You can deactivate the environemnt using
