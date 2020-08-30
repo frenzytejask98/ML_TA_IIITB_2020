@@ -1,0 +1,23 @@
+name: MLenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - pillow
+  - scipy
+  - numpy
+  - seaborn
+  - imageio
+  - regex
+  - pandas
+  - scikit-image
+  - nltk
+  - jupyter
+  - matplotlib
+  - scikit-learn==0.23.0
+  - opencv
+  - xgboost
+  - catboost
+  - imbalanced-learn
+  - mlxtend
+
