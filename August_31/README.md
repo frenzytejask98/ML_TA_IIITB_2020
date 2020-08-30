@@ -55,7 +55,7 @@ To activate your virtualev
 </pre>
 or 
 <pre>
-    pip3 install numpy pandas matplotlib scikit-image scikit-learn==0.23.0 jupyter Pillow scipy seaborn xgboost regex catboost imageio imblearn mlxtend nltk opencv-python
+    pip3 install numpy pandas matplotlib scikit-image scikit-learn==0.23.0 jupyter Pillow scipy seaborn xgboost regex catboost imageio imbalanced-learn mlxtend nltk opencv-python
 </pre>
 
 # Launching a Jupyter Notebook
