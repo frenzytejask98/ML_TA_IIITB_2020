@@ -31,9 +31,8 @@
 
 ### conda installation
 
-<pre>
-
-</pre>
+ 1. Download the correct version of [Miniconda Installer](https://docs.conda.io/en/latest/miniconda.html) for you.
+ 2. Install it on your OS following the respective guide [Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html), [Linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html), [macOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html)
 
 # Setting up a Virtual Environment
 
@@ -107,7 +106,7 @@ To activate your virtualev
 or
 
 <pre>
-    pip3 install numpy pandas matplotlib scikit-image scikit-learn==0.23.0 jupyter Pillow scipy seaborn xgboost regex catboost imageio imblearn mlxtend nltk opencv-python
+    pip3 install numpy pandas matplotlib scikit-image scikit-learn==0.23.0 jupyter Pillow scipy seaborn xgboost regex catboost imageio imbalanced-learn mlxtend nltk opencv-python
 </pre>
 
 # Launching a Jupyter Notebook
