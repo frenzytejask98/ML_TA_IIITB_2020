@@ -20,45 +20,98 @@
 
 **PIL :** adds image processing capabilities to your Python interpreter. This library supports many file formats, and provides powerful image processing and graphics capabilities.
 
+# Package Manager Installation
 
-# Installation
 ### pip installation
+
 <pre>
     sudo apt update
     sudo apt install python3-pip python3-dev
 </pre>
 
 ### conda installation
+
 <pre>
 
 </pre>
 
 # Setting up a Virtual Environment
 
-Install virtualenv
+Virtual environments are isolated coding environments where you can experiment with various libraries with different versions for your projects without affecting your global package settings. It is extremely helpful in ensuring nothing breaks when you tweak your packages to suite your project requirements. virtualenv and conda both can be used to create python environments, and it's upto you to choose. conda environments are simpler to use when your primary package manager is conda.
+
+### Using conda
+
+you can create a conda environment for your course project directly with a requirements.txt file. This will install all the packages from your .txt file.
+
+<pre>
+    conda create -n [NAME OF YOUR ENVIRONMENT] -file [NAME OF YOUR .TXT FILE]
+</pre>
+
+OR you can create a empty environment and add packages manually
+
+<pre>
+    conda create -n [NAME OF YOUR ENVIRONMENT]
+</pre>
+
+Once created, you can activate it using
+
+<pre>
+    conda activate [NAME OF YOUR ENVIRONMENT]
+</pre>
+
+You can add packages using simply by using
+
+<pre>
+    conda install [PACKAGE NAME]
+</pre>
+
+You can deactivate the environemnt using
+
+<pre>
+    conda deactivate
+</pre>
+
+You can also view all your enviroments using
+
+<pre>
+    conda-env list
+</pre>
+
+For more info, please check the conda [documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+
+### Using virtualenv
+
 <pre>
     sudo pip3 install virtualenv
 </pre>
+
 Build new virtualenv
+
 <pre>
     cd $YOUR_PROJECT_DIRECTORY
     virtualenv $NAME 
 </pre>
+
 To activate your virtualev
+
 <pre>
     source $NAME/bin/activate
 </pre>
 
 # Install the required packages
+
 <pre>
     pip3 install -r requirements.txt
 </pre>
-or 
+
+or
+
 <pre>
-    pip3 install numpy pandas matplotlib scikit-image scikit-learn==0.23.0 jupyter Pillow scipy seaborn xgboost regex catboost imageio imbalanced-learn mlxtend nltk opencv-python
+    pip3 install numpy pandas matplotlib scikit-image scikit-learn==0.23.0 jupyter Pillow scipy seaborn xgboost regex catboost imageio imblearn mlxtend nltk opencv-python
 </pre>
 
 # Launching a Jupyter Notebook
+
 <pre>
     jupyter notebook
 </pre>
