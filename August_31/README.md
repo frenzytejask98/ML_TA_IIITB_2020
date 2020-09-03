@@ -24,6 +24,8 @@
 
 We recommend to use Python3.6 as version 3.8 has alot of dependency issues with many packages. Please follow the following steps to either install Python3.6 or downgrade Python3.8 to Python3.6, whichever is required.
 
+Also, it is highly recommended that you use conda instead of virtualenv, since apt-get tends to behave unexpectedly at times. Conda is the most suitable and smooth way to manage your packages and environment.
+
 ### Python 3.6 installation
 
 If you are using virtualenv
@@ -44,7 +46,7 @@ If you are using conda (recommended)
 If you are using virtualenv
 
 <pre>
-    sudo apt-get uninstall python3.8
+    sudo apt-get remove python3.8
     sudo apt-get install python3.6
 </pre>
 
@@ -54,8 +56,6 @@ If you are using conda (recommended)
     conda activate [NAME OF YOUR ENVIRONMENT]
     conda install python=3.6
 </pre>
-
-NOTE: If you are using "pip" inside a conda environment to install packages, do not add "sudo" in the command
 
 # Package Manager Installation
 
@@ -106,7 +106,7 @@ You can add packages using simply by using
 <pre>
     conda install [PACKAGE NAME]
     OR
-    pip install [PACKAGE NAME]
+    python -m pip install [PACKAGE NAME]
 </pre>
 
 You can deactivate the environemnt using
