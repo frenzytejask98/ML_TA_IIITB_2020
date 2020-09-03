@@ -1,23 +1,23 @@
 name: MLenv
 channels:
+  - anaconda
   - conda-forge
 dependencies:
-  - python=3
-  - pillow
-  - scipy
-  - numpy
-  - seaborn
-  - imageio
-  - regex
-  - pandas
-  - scikit-image
-  - nltk
-  - jupyter
-  - matplotlib
-  - scikit-learn==0.23.0
   - opencv
-  - xgboost
-  - catboost
+  - nltk
+  - regex
+  - imageio
+  - pillow
+  - scikit-image
+  - scikit-learn==0.23.0
+  - seaborn
+  - matplotlib
+  - python=3
+  - scipy
   - imbalanced-learn
+  - jupyter
+  - numpy
+  - xgboost
+  - pandas
   - mlxtend
-
+  - catboost
