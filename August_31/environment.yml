@@ -2,7 +2,7 @@ name: MLenv
 channels:
   - conda-forge
 dependencies:
-  - python=3
+  - python=3.6
   - pillow
   - scipy
   - numpy

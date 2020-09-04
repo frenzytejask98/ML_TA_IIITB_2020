@@ -20,6 +20,43 @@
 
 **PIL :** adds image processing capabilities to your Python interpreter. This library supports many file formats, and provides powerful image processing and graphics capabilities.
 
+# Language Installation
+
+We recommend to use Python3.6 as version 3.8 has alot of dependency issues with many packages. Please follow the following steps to either install Python3.6 or downgrade Python3.8 to Python3.6, whichever is required.
+
+Also, it is highly recommended that you use conda instead of virtualenv, since apt-get tends to behave unexpectedly at times. Conda is the most suitable and smooth way to manage your packages and environment.
+
+### Python 3.6 installation
+
+If you are using virtualenv
+
+<pre>
+    sudo apt-get update
+    sudo apt-get install python3.6
+</pre>
+
+If you are using conda (recommended)
+
+<pre>
+    conda create -n [NAME OF ENVIRONMENT] python=3.6
+</pre>
+
+### Downgrade Python from 3.8 to 3.6
+
+If you are using virtualenv
+
+<pre>
+    sudo apt-get remove python3.8
+    sudo apt-get install python3.6
+</pre>
+
+If you are using conda (recommended)
+
+<pre>
+    conda activate [NAME OF YOUR ENVIRONMENT]
+    conda install python=3.6
+</pre>
+
 # Package Manager Installation
 
 ### pip installation
@@ -69,7 +106,7 @@ You can add packages using simply by using
 <pre>
     conda install [PACKAGE NAME]
     OR
-    pip install [PACKAGE NAME]
+    python -m pip install [PACKAGE NAME]
 </pre>
 
 You can deactivate the environemnt using
