@@ -26,7 +26,7 @@ We recommend to use Python3.6 as version 3.8 has alot of dependency issues with 
 
 Also, it is highly recommended that you use conda instead of virtualenv, since apt-get tends to behave unexpectedly at times. Conda is the most suitable and smooth way to manage your packages and environment.
 
-### Python 3.6 installation
+### Python 3.6 installation in your virtual environment and not system wide
 
 If you are using virtualenv
 
@@ -41,7 +41,7 @@ If you are using conda (recommended)
     conda create -n [NAME OF ENVIRONMENT] python=3.6
 </pre>
 
-### Downgrade Python from 3.8 to 3.6
+### Downgrade Python from 3.8 to 3.6 in your virtual environmentment and not system wide
 
 If you are using virtualenv
 
