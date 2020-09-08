@@ -26,6 +26,24 @@ We recommend to use Python3.6 as version 3.8 has alot of dependency issues with 
 
 Also, it is highly recommended that you use conda instead of virtualenv, since apt-get tends to behave unexpectedly at times. Conda is the most suitable and smooth way to manage your packages and environment.
 
+# Package Manager Installation
+
+### pip installation
+
+<pre>
+    sudo apt update
+    sudo apt install python3-pip python3-dev
+</pre>
+
+### conda installation
+
+ 1. Download the correct version of [Miniconda Installer](https://docs.conda.io/en/latest/miniconda.html) for you.
+ 2. Install it on your OS following the respective guide [Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html), [Linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html), [macOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html)
+
+# Setting up a Virtual Environment
+
+Virtual environments are isolated coding environments where you can experiment with various libraries with different versions for your projects without affecting your global package settings. It is extremely helpful in ensuring nothing breaks when you tweak your packages to suite your project requirements. virtualenv and conda both can be used to create python environments, and it's upto you to choose. conda environments are simpler to use when your primary package manager is conda.
+
 ### Python 3.6 installation in your virtual environment and not system wide
 
 If you are using virtualenv
@@ -35,6 +53,7 @@ If you are using virtualenv
     sudo apt-get install python3.6
 </pre>
 
+### Create a virtual environment using conda which uses Py3.6
 If you are using conda (recommended)
 
 <pre>
@@ -56,24 +75,6 @@ If you are using conda (recommended)
     conda activate [NAME OF YOUR ENVIRONMENT]
     conda install python=3.6
 </pre>
-
-# Package Manager Installation
-
-### pip installation
-
-<pre>
-    sudo apt update
-    sudo apt install python3-pip python3-dev
-</pre>
-
-### conda installation
-
- 1. Download the correct version of [Miniconda Installer](https://docs.conda.io/en/latest/miniconda.html) for you.
- 2. Install it on your OS following the respective guide [Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html), [Linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html), [macOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html)
-
-# Setting up a Virtual Environment
-
-Virtual environments are isolated coding environments where you can experiment with various libraries with different versions for your projects without affecting your global package settings. It is extremely helpful in ensuring nothing breaks when you tweak your packages to suite your project requirements. virtualenv and conda both can be used to create python environments, and it's upto you to choose. conda environments are simpler to use when your primary package manager is conda.
 
 ### Using conda
 
@@ -141,6 +142,7 @@ To activate your virtualev
 <pre>
     source $NAME/bin/activate
 </pre>
+
 
 # Install the required packages
 
