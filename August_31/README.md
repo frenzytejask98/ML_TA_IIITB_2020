@@ -44,14 +44,6 @@ Also, it is highly recommended that you use conda instead of virtualenv, since a
 
 Virtual environments are isolated coding environments where you can experiment with various libraries with different versions for your projects without affecting your global package settings. It is extremely helpful in ensuring nothing breaks when you tweak your packages to suite your project requirements. virtualenv and conda both can be used to create python environments, and it's upto you to choose. conda environments are simpler to use when your primary package manager is conda.
 
-### Python 3.6 installation in your virtual environment and not system wide
-
-If you are using virtualenv
-
-<pre>
-    sudo apt-get update
-    sudo apt-get install python3.6
-</pre>
 
 ### Create a virtual environment using conda which uses Py3.6
 If you are using conda (recommended)
@@ -60,14 +52,8 @@ If you are using conda (recommended)
     conda create -n [NAME OF ENVIRONMENT] python=3.6
 </pre>
 
-### Downgrade Python from 3.8 to 3.6 in your virtual environmentment and not system wide
+#### Downgrade Python from 3.8 to 3.6 in your virtual environmentment and not system wide (if required)
 
-If you are using virtualenv
-
-<pre>
-    sudo apt-get remove python3.8
-    sudo apt-get install python3.6
-</pre>
 
 If you are using conda (recommended)
 
@@ -106,8 +92,6 @@ You can add packages using simply by using
 
 <pre>
     conda install [PACKAGE NAME]
-    OR
-    python -m pip install [PACKAGE NAME]
 </pre>
 
 You can deactivate the environemnt using
@@ -119,18 +103,18 @@ You can deactivate the environemnt using
 You can also view all your enviroments using
 
 <pre>
-    conda-env list
+    conda env list
 </pre>
 
 For more info, please check the conda [documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
-### Using virtualenv
+### Creating a virtual environment using virtualenv
 
 <pre>
     sudo pip3 install virtualenv
 </pre>
 
-Build new virtualenv
+#### Build new virtualenv
 
 <pre>
     cd $YOUR_PROJECT_DIRECTORY
@@ -143,8 +127,21 @@ To activate your virtualev
     source $NAME/bin/activate
 </pre>
 
+### Python 3.6 installation in your virtual environment and not system wide
 
-# Install the required packages
+<pre>
+    sudo apt-get update
+    sudo apt-get install python3.6
+</pre>
+
+#### If you are on Py3.8 in your environment downgrade to Py3.6
+
+<pre>
+    sudo apt-get remove python3.8
+    sudo apt-get install python3.6
+</pre>
+
+#### Install the required packages using virtualenv (pip)
 
 <pre>
     pip3 install -r requirements.txt
@@ -154,6 +151,20 @@ or
 
 <pre>
     pip3 install numpy pandas matplotlib scikit-image scikit-learn==0.23.0 jupyter Pillow scipy seaborn xgboost regex catboost imageio imbalanced-learn mlxtend nltk opencv-python
+</pre>
+
+For any new package installation:
+<pre>
+    python -m pip install [PACKAGE NAME]
+</pre>
+To deactivate your virtualenv
+<pre>
+    deactivate
+</pre>
+
+List of virtualenvs
+<pre>
+    lsvirtualenv
 </pre>
 
 # Launching a Jupyter Notebook
