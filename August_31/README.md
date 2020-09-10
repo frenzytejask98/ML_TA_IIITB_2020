@@ -37,15 +37,15 @@ Also, it is highly recommended that you use conda instead of virtualenv, since a
 
 ### conda installation
 
- 1. Download the correct version of [Miniconda Installer](https://docs.conda.io/en/latest/miniconda.html) for you.
- 2. Install it on your OS following the respective guide [Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html), [Linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html), [macOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html)
+1.  Download the correct version of [Miniconda Installer](https://docs.conda.io/en/latest/miniconda.html) for you.
+2.  Install it on your OS following the respective guide [Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html), [Linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html), [macOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html)
 
 # Setting up a Virtual Environment
 
 Virtual environments are isolated coding environments where you can experiment with various libraries with different versions for your projects without affecting your global package settings. It is extremely helpful in ensuring nothing breaks when you tweak your packages to suite your project requirements. virtualenv and conda both can be used to create python environments, and it's upto you to choose. conda environments are simpler to use when your primary package manager is conda.
 
-
 ### Create a virtual environment using conda which uses Py3.6
+
 If you are using conda (recommended)
 
 <pre>
@@ -53,7 +53,6 @@ If you are using conda (recommended)
 </pre>
 
 #### Downgrade Python from 3.8 to 3.6 in your virtual environmentment and not system wide (if required)
-
 
 If you are using conda (recommended)
 
@@ -154,15 +153,19 @@ or
 </pre>
 
 For any new package installation:
+
 <pre>
     python -m pip install [PACKAGE NAME]
 </pre>
+
 To deactivate your virtualenv
+
 <pre>
     deactivate
 </pre>
 
 List of virtualenvs
+
 <pre>
     lsvirtualenv
 </pre>
