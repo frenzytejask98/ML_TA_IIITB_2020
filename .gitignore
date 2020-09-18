@@ -1,0 +1,6 @@
+#ignore ipynb checkpoints
+.ipynb_checkpoints
+
+
+#Macintosh
+.DS_Store
