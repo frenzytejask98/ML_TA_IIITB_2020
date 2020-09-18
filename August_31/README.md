@@ -72,7 +72,7 @@ You can create a conda environment from YML file (recommended)
 Or you can create a conda environment for your course project directly with a requirements.txt file. This will install all the packages from your .txt file. (pip package names may differ from conda package names)
 
 <pre>
-    conda create -n [NAME OF YOUR ENVIRONMENT] -file [NAME OF YOUR .TXT FILE]
+    conda create -n [NAME OF YOUR ENVIRONMENT] --file [NAME OF YOUR .TXT FILE]
 </pre>
 
 OR you can create a empty environment and add packages manually
