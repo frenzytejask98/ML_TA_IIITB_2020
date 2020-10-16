@@ -1,0 +1,15 @@
+1. ERRORS TO TAKE CARE OF WHILE REFERRING TO THE NOTES PDF
+
+- On page 10 of PDF, the Pythagoras theorem should be  {r^2 = p^2 - q^2} Thus the notion of minimizing q^2 being equivalent to maximizing r^2.
+- On pages 10;11 of PDF, {S = r1^2 + r2^2 + r3^2 + r4^2 + r5^2 + r6^2} (instead of the di^2's), the rest of the notions then remain the same. 
+
+2. FOR STUDENTS FURTHER INTERESTED, 
+
+The next logical step after today's session is to read about t-SNE, which is another common data exploration technique.
+A good place to start would be :
+
+- https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1
+(For an introduction to the concept.)
+
+- https://lvdmaaten.github.io/tsne/
+(The actual author behind the concept of t-SNE and you will find pre-existing code from scratch for t-SNE here.)
